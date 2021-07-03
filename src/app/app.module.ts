@@ -11,6 +11,9 @@ import { ProfileComponent } from './profile/profile.component';
 import { ApplyComponent } from './leaves/apply/apply.component';
 import { BalanceComponent } from './leaves/balance/balance.component';
 import { Page404leavesComponent } from './leaves/page404leaves/page404leaves.component';
+import { CasualComponent } from './leaves/balance/casual/casual.component';
+import { EarnedComponent } from './leaves/balance/earned/earned.component';
+import { Page404balanceComponent } from './leaves/balance/page404balance/page404balance.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +25,10 @@ import { Page404leavesComponent } from './leaves/page404leaves/page404leaves.com
     ProfileComponent,
     ApplyComponent,
     BalanceComponent,
-    Page404leavesComponent
+    Page404leavesComponent,
+    CasualComponent,
+    EarnedComponent,
+    Page404balanceComponent
   ],
   imports: [
     BrowserModule,
